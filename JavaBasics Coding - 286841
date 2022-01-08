@@ -35,7 +35,7 @@ public class JavaBasics {
 		}
 			
 		if(myAge2 > theirAge2) {
-			System.out.println("I am older. (My ages is 20)");
+			System.out.println("I am older. (My age is 20)");
 		}
 		
 		else if (myAge2 < theirAge2) {
