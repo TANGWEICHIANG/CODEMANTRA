@@ -1,0 +1,46 @@
+package JavaWorkshopTask;
+
+public class JavaBasics {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*
+		 * Create an array of String data type that consists of your full name. 
+		 * e.g. Mazuqi (index 0) Adha (index 1). 
+		 * After that printout all element in an array using loop.
+		 */
+		System.out.println("FIRST QUESITON:");
+		String [] name = {"TANG","WEI","CHIANG"};
+		for(int i=0; i<name.length; i++) {
+			System.out.print(name[i] + " ");
+		}
+		System.out.println("\n");
+		
+		/*
+		 * Create a variable with the name myAge=15, theirAge=20.
+		 * print out “I am older” if myAge > theirAge and print out 
+		 * “I am younger” if myAge <theirAge
+		 */
+		System.out.println("SECOND QUESTION:");
+		int myAge1 = 15, myAge2 = 20;
+		int theirAge1 = 20, theirAge2 = 15;
+		
+		if(myAge1 > theirAge1) {
+			System.out.println("I am older.(My age is 15)");
+		}
+		
+		else if (myAge1 < theirAge1) {
+			System.out.println("I am younger. (My age is 15)");
+		}
+			
+		if(myAge2 > theirAge2) {
+			System.out.println("I am older. (My ages is 20)");
+		}
+		
+		else if (myAge2 < theirAge2) {
+			System.out.println("I am younger. (My age is 20)");
+		}	
+	}
+
+}
